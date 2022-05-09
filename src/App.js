@@ -46,7 +46,6 @@ class App extends Component {
     return (
       <>
       <div className="body">
-      <FooterPage/>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container  p-1">
             <Link to={"/"} className="navbar-brand">
@@ -144,6 +143,8 @@ class App extends Component {
             <Route exact path="*" component={NotFound}/>
           </Switch>
         </div>
+        <FooterPage/>
+
       </div>
       </>
 

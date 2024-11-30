@@ -30,7 +30,7 @@ export default class Home extends Component {
       <div className="container">
         <header className="jumbotron">
           <h1 className="display-6 shadow-lg p-3 mb-5 bg-light rounded">
-           <b> Document Sharing Platform</b>
+           <b> We Shape the Future</b>
           </h1>
           <p className="lead shadow p-3 mb-5 bg-body rounded">
             {" "}

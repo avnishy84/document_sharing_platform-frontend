@@ -46,11 +46,10 @@ class App extends Component {
     return (
       <>
       <div className="body">
-      <FooterPage/>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container  p-1">
             <Link to={"/"} className="navbar-brand">
-              DocSharing Platforms
+              COMPUFY TECHNOLOGY
             </Link>
             <button
               className="navbar-toggler"
@@ -65,6 +64,26 @@ class App extends Component {
                 <li className="nav-item">
                   <Link to={"/home"} className="nav-link">
                     Home
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to={"/home"} className="nav-link">
+                    About
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to={"/home"} className="nav-link">
+                    Portfolio
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to={"/home"} className="nav-link">
+                    Contact
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link to={"/home"} className="nav-link">
+                    Career
                   </Link>
                 </li>
                 {showReviewerBoard && (
@@ -145,6 +164,8 @@ class App extends Component {
           </Switch>
         </div>
       </div>
+      <FooterPage/>
+
       </>
 
     );
